@@ -52,7 +52,7 @@ var jsxhr = $.getJSON(NYTimeurl,function( data ) {
 });
 
 
-var wikiUrl = 'http://en.wikipedia.org/w/api.php?action=opensearch&search='+city+'&format=jason&callback=wikiCallback'
+var wikiUrl = 'https://en.wikipedia.org/w/api.php?action=opensearch&search='+city+'&format=jason&callback=wikiCallback'
 
 /*$.ajax({
   url: wikiUrl,
@@ -70,7 +70,7 @@ var wikiUrl = 'http://en.wikipedia.org/w/api.php?action=opensearch&search='+city
 
     $.ajax({
         type: "GET",
-        url: "http://en.wikipedia.org/w/api.php?action=opensearch&search="+city+"&format=json&callback=?",
+        url: "https://en.wikipedia.org/w/api.php?action=opensearch&search="+city+"&format=json&callback=?",
         contentType: "application/json; charset=utf-8",
         async: false,
         dataType: "json",
